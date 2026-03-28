@@ -1,7 +1,11 @@
 # crontab-gen
-Crontab entry generator from presets. Zero dependencies.
+
+Interactive crontab expression builder.
+
+Zero dependencies. Python 3.8+.
+
 ## Usage
+
 ```bash
-python3 crontab_gen.py weekdays-9am /usr/bin/backup.sh
-python3 crontab_gen.py --custom "*/10" 9-17 "*" "*" 1-5 python3 check.py
+python3 crontab_gen.py --help
 ```
